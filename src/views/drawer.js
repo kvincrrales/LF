@@ -9,10 +9,10 @@ export default class Sidebar extends Component {
            <List>
             <Header>
             <H1 style={{color:'#ffffff'}}>GNU/Linux</H1>
-
             </Header>
+
             <ListItem>  
-            <Image source={require('../img/linux.png')} style={{ height: 150, width: null, flex: 1 }} />
+            <Image source={require('../../img/linux.png')} style={{ height: 150, width: null, flex: 1 }} />
             </ListItem>
             <ListItem icon>
               <Left>
@@ -26,6 +26,7 @@ export default class Sidebar extends Component {
                 <Icon name="arrow-forward" />
               </Right>
             </ListItem>
+
             <ListItem icon>
               <Left>
                 <Icon name="logo-facebook" />
@@ -38,6 +39,7 @@ export default class Sidebar extends Component {
                 <Icon name="arrow-forward" />
               </Right>
             </ListItem>
+            
             <ListItem icon>
               <Left>
                 <Icon name="person" />

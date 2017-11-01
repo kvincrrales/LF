@@ -1,9 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- * @flow
- */
-
 
 import React, { Component } from 'react';
 import { AppRegistry } from 'react-native';
@@ -11,10 +5,10 @@ import { Container, StyleProvider, Drawer, Header, Left, Button, Icon, Title, Bo
 import getTheme from './native-base-theme/components';
 import commonColor from './native-base-theme/variables/commonColor';
 
-import AppHeader from './layout/header';
-import AppBody from './layout/body';
-import AppFooter from './layout/footer';
-import SideBar from './layout/drawer';
+import AppHeader from './src/views/header';
+import AppBody from './src/views/body';
+import AppFooter from './src/views/footer';
+import SideBar from './src/views/drawer';
 
 export default class LF extends Component {
   closeDrawer() {

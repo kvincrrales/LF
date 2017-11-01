@@ -18,7 +18,7 @@ export default class AppBody extends Component {
             </Left>
           </CardItem>
           <CardItem cardBody>
-            <Image source={require('../img/linux.png')} style={{ height: 200, width: null, flex: 1 }} />
+            <Image source={require('../../img/linux.png')} style={{ height: 200, width: null, flex: 1 }} />
           </CardItem>
           <CardItem>
             <Text>
